@@ -1,0 +1,11 @@
+{
+  "name": "grafil-mega-base-quick-start",
+  "version": "0.1.0",
+  "title": "Grafil Mega Base Quick Start",
+  "author": "metex",
+  "contact": "",
+  "homepage": "",
+  "factorio_version": "0.16",
+  "dependencies": ["base >= 0.15"],
+  "description": "A starter pack that helps to quickly get you started on building a mega base. Works with both base and Bob's mods. Helps dramatically with early game. Can configure the type of starting items as well as tech allready researched."
+}
