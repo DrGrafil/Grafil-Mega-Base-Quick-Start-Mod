@@ -11,6 +11,12 @@ script.on_event(defines.events.on_player_created, function(event)
 		defines.inventory.player_player_trash
 	}
 	
+	--Loading functions
+local search = require("mod_search")
+search.mod_search("Bob")
+	
+	
+	
 	-- Setup kit presets
 	local kits = {}
 	kits["small"] = {}
@@ -205,6 +211,18 @@ script.on_event(defines.events.on_player_created, function(event)
 		{"logistic-system"},
 		{"fluid-handling"}
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 		local kitSetting = settings.startup["grafil-mega-base-quick-start"].value
 		local techSetting = settings.startup["grafil-mega-base-quick-start-tech"].value
